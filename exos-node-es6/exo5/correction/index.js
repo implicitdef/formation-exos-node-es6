@@ -1,4 +1,20 @@
-const axios = require('axios');
+const express = require('express');
+
+
+
+const app = express();
+
+
+app.get('/hello', (req, res) => {
+  res.send('Hello!');
+});
+
+app.listen(4000, () => {
+  console.log('Server listening on port 4000...')
+});
+
+
+/*
 const username = process.argv[2];
 
 console.log("---- Searching for posts by " + username + " ----");
@@ -28,3 +44,4 @@ axios.get("https://jsonplaceholder.typicode.com/users")
   .catch(err => {
     console.error("Something went wrong : " + err)
   });
+*/
