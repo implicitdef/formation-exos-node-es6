@@ -1,0 +1,11 @@
+{
+  "name": "exo1",
+  "private": true,
+  "scripts": {
+    "say-hello-max": "node index.js Max",
+    "say-hello-suzie": "node index.js Suzie"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
