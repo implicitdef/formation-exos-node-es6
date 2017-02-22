@@ -1,0 +1,39 @@
+{
+  "columns": [
+    {
+      "id": 1,
+      "name": "Tomorrow"
+    },
+    {
+      "id": 2,
+      "name": "Today"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "columnId": 1,
+      "text": "Buy plane tickets"
+    },
+    {
+      "id": 2,
+      "columnId": 1,
+      "text": "Call mom"
+    },
+    {
+      "id": 3,
+      "columnId": 2,
+      "text": "Send email to Lucy"
+    },
+    {
+      "id": 4,
+      "columnId": 2,
+      "text": "Buy groceries"
+    },
+    {
+      "id": 5,
+      "columnId": 2,
+      "text": "Go to the gym"
+    }
+  ]
+}
