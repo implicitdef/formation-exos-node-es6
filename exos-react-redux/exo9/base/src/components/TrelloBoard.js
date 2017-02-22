@@ -73,10 +73,12 @@ class AddColumnForm extends React.Component {
   }
 }
 
-export default ({name, columns, onDeleteTask, onDeleteColumn, onColumnAdd, onTaskAdd, onGoToUser}) => <div className="board">
+export default ({name, columns, onDeleteTask, onDeleteColumn, onColumnAdd, onTaskAdd}) => <div className="board">
   <h1>{name}</h1>
   <div className="links">
-    <a onClick={() => onGoToUser(2)}>Link to user 2</a>
+    <a>Link to user 1</a>
+    <a>Link to user 2</a>
+    <a>Link to user 3 (does not exist)</a>
   </div>
   <div className="columns">
     {

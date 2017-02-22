@@ -12,7 +12,6 @@ export const getColumns = () => {
     .then(r => r.data);
 };
 
-
 export const deleteColumn = (id) => {
   return myAxios.delete(`/columns/${id}`)
     .then(r => r.data);
@@ -30,5 +29,11 @@ export const addColumn = (name) => {
 
 export const addTask = (text, columnId) => {
   return myAxios.post(`/tasks/`, { text, columnId })
+    .then(r => r.data);
+};
+
+
+export const getUser = (id) => {
+  return myAxios.get(`/users/${id}`)
     .then(r => r.data);
 };

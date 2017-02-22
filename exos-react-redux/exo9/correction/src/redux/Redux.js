@@ -1,9 +1,15 @@
 import { combineReducers, createStore, compose, applyMiddleware } from 'redux'
 import columns from "./ducks/columns";
+import user from "./ducks/user";
 import {fetchColumns} from "./ducks/columns";
+import {fetchUser} from "./ducks/user";
 import thunkMiddleware from "redux-thunk";
+
+
+
 const reducer = combineReducers({
-  columns
+  columns,
+  user
 });
 
 
@@ -16,8 +22,6 @@ export const store = createStore(
     applyMiddleware(thunkMiddleware)
   )
 );
-
-
 
 
 // do a fetch when the app start

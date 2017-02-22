@@ -1,7 +1,7 @@
 import * as api from "../../api/api";
 
 
-const FETCH_COLUMNS_SUCCESS = 'tasks/FETCH_TASKS_SUCCESS';
+const FETCH_COLUMNS_SUCCESS = 'columns/FETCH_TASKS_SUCCESS';
 
 
 export default (state = [], action) => {

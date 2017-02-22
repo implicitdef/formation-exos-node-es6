@@ -25,9 +25,6 @@ const mapDispatchToProps = (dispatch) => {
     },
     onColumnAdd : (name) => {
       dispatch(columns.addColumn(name));
-    },
-    onGoToUser : (id) => {
-      console.log("Going to user", id);
     }
   }
 };

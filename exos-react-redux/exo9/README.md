@@ -4,11 +4,11 @@ EXO 8
 But
 -----
 
-- Intégrer du routing basique avec la lib history
+- Intégrer du routing avec react-router
 - créer des liens
 - afficher du contenu différent sur certaines URLs
 - chargement des données correspondant à l'URL
-- déclencher des changements d'URL depuis le code
+- rediriger
 
 Consignes
 ------ 
@@ -23,11 +23,11 @@ Le comportement attendu est le suivant :
 
 
 - / doit afficher le board, comme avant
-- Le lien "Link to user 2" sur le board doit faire naviguer vers /user/2
+- Brancher les liens "Link vers user 1", etc.
 - /user/[x] doit afficher le ConnectedUserBlock avec le user [x]
 - /user/[x] doit rediriger vers / si le user [x] n'existe pas
 
-Implémentez tout cela en utilisant la lib history : https://github.com/ReactTraining/history
+Implémentez tout cela en utilisant la lib react-router
 
 
 Rappel commande pour démarrer le serveur :

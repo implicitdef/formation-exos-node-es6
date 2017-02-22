@@ -75,6 +75,7 @@ table {
   text-decoration: underline;
   cursor:pointer;
   font-size: 0.8em;
+  margin-right: 15px;
 }
 .board .columns {
   padding: 10px;
@@ -190,7 +191,7 @@ table {
   width:180px;
   margin: 30px;
   background: #a3bc78;
-  //border: 3px solid black;
+//border: 3px solid black;
   border-radius: 10px;
 }
 

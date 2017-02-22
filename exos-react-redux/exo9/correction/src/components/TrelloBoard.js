@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router";
 
 
 const Task = ({text, onDelete}) => <div className="task">
@@ -75,6 +75,11 @@ class AddColumnForm extends React.Component {
 
 export default ({name, columns, onDeleteTask, onDeleteColumn, onColumnAdd, onTaskAdd}) => <div className="board">
   <h1>{name}</h1>
+  <div className="links">
+    <Link to={'/user/1'}>Link to user 1</Link>
+    <Link to={'/user/2'}>Link to user 2</Link>
+    <Link to={'/user/3'}>Link to user 3 (does not exist)</Link>
+  </div>
   <div className="columns">
     {
       columns.map(column => {
