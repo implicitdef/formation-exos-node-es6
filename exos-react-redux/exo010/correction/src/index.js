@@ -1,9 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import * as other from "./sub/other"
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+
+const FOo = "BAR";
+
+console.log(FOo + other.message);
+
+
