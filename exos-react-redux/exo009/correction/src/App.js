@@ -21,20 +21,7 @@ const onEnterUserRoute = (nextState, replace, callback) => {
 
 class App extends Component {
 
-
-
-
-
-
   render() {
-    return <Provider store={store}>
-      <Router history={browserHistory}>
-        <Route path="/" component={My}/>
-        <Route path="user/:id" component={ConnectedUserBlock} onEnter={onEnterUserRoute}/>
-        <Redirect from="*" to="/"/>
-      </Router>
-
-
 
       return <Provider store={store}>
       <Router history={browserHistory}>
